@@ -256,7 +256,7 @@ public class editorPrincipal extends javax.swing.JFrame {
 
     public void actualizarTabla(){
         tablemodel.borrarUsuario(conexion);
-        System.out.println("rama feature");
+        System.out.println("rama featurev2");
     }
 
     
