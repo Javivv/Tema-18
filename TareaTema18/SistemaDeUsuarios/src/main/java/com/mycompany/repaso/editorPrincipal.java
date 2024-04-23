@@ -14,6 +14,7 @@ import javax.swing.JOptionPane;
  * @author javiv
  */
 public class editorPrincipal extends javax.swing.JFrame {
+    
 
     /**
      * Creates new form editorPrincipal
@@ -255,9 +256,10 @@ public class editorPrincipal extends javax.swing.JFrame {
 
     public void actualizarTabla(){
         tablemodel.borrarUsuario(conexion);
+        System.out.println("rama feature");
     }
 
-
+    
     /**
      * @param args the command line arguments
      */
