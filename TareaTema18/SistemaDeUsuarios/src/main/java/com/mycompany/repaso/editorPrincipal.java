@@ -29,7 +29,6 @@ public class editorPrincipal extends javax.swing.JFrame {
         initComponents();
         actualizarTabla();
 
-        
     }
 
     /**
