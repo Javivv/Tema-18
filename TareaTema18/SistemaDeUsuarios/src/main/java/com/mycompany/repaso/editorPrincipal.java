@@ -223,10 +223,6 @@ public class editorPrincipal extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt); // limpiar campos
                 actualizarTabla();
 
-                // ! He añadido un mensaje de confirmación en la rama feature
-                JOptionPane.showMessageDialog(null, "Usuario añadido satisfactoriamente");
-
-
             } catch (Exception e) {
                 // TODO: handle exception
             }
