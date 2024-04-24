@@ -218,7 +218,8 @@ public class editorPrincipal extends javax.swing.JFrame {
                 // Usuario usuarioAnadir = new Usuario(jTextField1.getText(), jTextField2.getText(), jTextField3.getText(), jTextField4.getText(), jTextField5.getText());
                 tablemodel.anyadirUsuario(jTextField1.getText(), jTextField2.getText(), jTextField3.getText(), jTextField4.getText(), jTextField5.getText());
 
-                conexion.ejecutarModificacion("INSERT INTO `registrousuarios`(`Nombre`, `Apellidos`, `Edad`, `Mail`, `contrasena`) VALUES ('" + jTextField1.getText() + "', '" + jTextField2.getText() +  "', '" + jTextField3.getText() + "', '" + jTextField4.getText() + "', '" + jTextField5.getText() + "');");
+                // ! HE HECHO QUE EL INSERT NO FUNCIONE PARA APLICARLE UN HOTFIX
+                conexion.ejecutarModificacion("INSERT INTO `registrousuari (`Nombre`, `Apellidos`, `Edad`, `Mail`, `contrasena`) VALUES ('" + jTextField1.getText() + "', '" + jTextField2.getText() +  "', '" + jTextField3.getText() + "', '" + jTextField4.getText() + "', '" + jTextField5.getText() + "');");
                 jButton3ActionPerformed(evt); // limpiar campos
                 actualizarTabla();
 
